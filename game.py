@@ -59,4 +59,4 @@ while n < 10: # you'll get 10 chances
 print("No. of Draws :", draws)
 print("No. of times user won :", usr_score)
 print("No. of times cpu won :", cpu_score)
-print("User won") if usr_choice > cpu_choice else print("Cpu Won")
+print("User won") if usr_score > cpu_score else print("Cpu Won")
